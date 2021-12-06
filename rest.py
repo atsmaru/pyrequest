@@ -27,8 +27,7 @@ PW = config_ini['DEFAULT']['PW']
 #url = "https://qiita.com/api/v2/items/1f66d20a16657e493ccd/likes"
 #url = "https://qiita.com/api/v2/tags"
 #url = "https://qiita.com/api/v2/users/atmaru/following_tags"
-#r = requests.get(url, auth=("atsmaru@gmail.com", "aki140Qi"))
-#r = requests.get(url, auth=("atmaru", "aki140Qi"))
+#r = requests.get(url, auth=(USER, PW))
 
 
 def GetRequest(command):
